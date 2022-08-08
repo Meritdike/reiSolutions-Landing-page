@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar fixed-top bg-white">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="img/header-logo.png" alt="solution.oi logo" class="img-fluid"></a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><button class="px-4 py-2 rounded-3 btn-outline-green">Book a Consultation</button></a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <!-- Hero section -->
+        <section id="hero-section" class="mt-5 pt-5 pb-3">
+            <div class="container my-5 py-5">
+                <div class="text-center">
+                    <h1 class="text-orange fw-semibold">Affordable <span class="text-green">Podio</span> Systems</h1>
+                    <h3 class="text-gray py-2">Built For You & Your Business</h3>
+                    <p class="text-gray-secondary w-60 mx-auto">We strive to build the best and most comprehensive Podio workspaces for Real Estate Investors, Realtors, and everyone in between. From custom set ups to quick integrations to your existing workspace, we can help get you set up for success!</p>
+                    <a class="nav-link active" aria-current="page" href="#"><button type="button" class="my-4 px-5 py-2 rounded-3 btn-orange border-0" data-bs-toggle="modal" data-bs-target="#get-in-touch">Get in touch</button></a>
+                </div>
+            </div>
+        </section>
+        <!-- Second section -->
+        <section id="about-us" class="py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 text-center">
+                        <img src="img/lightening.png" alt="lightening bolt" class="img-fluid">
+                        <p class="text-light py-5">Fast and seamless connections to all the 3rd party tools you know and love.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 text-center">
+                        <img src="img/board.png" alt="board" class="img-fluid">
+                        <p class="text-light py-5">Experts planning and design of Real Estate CRMs. From mild to wild and everything in between. If you have a vision we can bring it to life.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 text-center">
+                        <img src="img/check-icon.png" alt="check icon" class="img-fluid">
+                        <p class="text-light py-5">No limits on what can be achieved. Custom code scripts written and hosted on our own servers so you never have to worry about maintenance or updates. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center p-5 expert rounded-4 mx-auto">
+                        <h5 class="text-white">We are Experts in</h5>
+                        <p class="fs-2 text-orange-secondary">Citrix | Podio</p>
+                        <p class="text-white w-60 mx-auto">Let us help bring your vision to life and get your business back on track! We will design a custom CRM around your business so you don’t have to run your business around a CRM that doesn’t match how you really do things!</p>
+                        <a href="#"><button class="my-4 px-5 py-2 rounded-3 btn-orange border-0">Book a Consultation</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal -->
+        <!-- Form Modal -->
+        <div class="modal fade" id="get-in-touch" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border-0 text-center justify-content-between pt-4">
+                  <h5 class="modal-title text-dark mx-auto fw-semibold" id="exampleModalLabel">Get in touch with us</h5>
+                  <button type="button" class="btn-close m-0 shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body px-5">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="number" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="help" class="form-label">How can we help?</label>
+                            <textarea class="form-control" id="help" rows="3"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="my-4 px-5 py-2 rounded-3 btn-orange border-0"  data-bs-toggle="modal" data-bs-target="#sent-success">Submit</button>
+                        </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Sent Successful Modal -->
+        <div class="modal fade" id="sent-success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 <div class="text-center">
+                    <img src="img/check-icon-green.png" class="img-fluid" alt="sent Successfully icon">
+                    <h4 class="text-dark fw-semibold pt-4">Sent Successfully</h4>
+                    <p class="text-gray pb-3 fs-5">Your message was successfully sent</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container py-4">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="img/header-logo.png" alt="solution.oi logo" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <p class="text-dark mb-0 pointer"><a href="" class="text-decoration-none link-dark">info@reisolutions.io</a> <span class="mx-2"> | </span> (866) 381-0327</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <p class="text-dark mb-0">&copy; Copyrights <span id="curYr"></span> | REISolutions</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        let date = new Date();
+        let year = date.getFullYear();
+        document.getElementById('curYr').innerHTML = year;
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
