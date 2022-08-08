@@ -22,6 +22,10 @@
     color: var(--primaryGreen);
 }
 
+.btn-outline-green:focus-visible {
+    outline: none;
+}
+
 .btn-outline-green:hover {
     background-color: var(--primaryGreen);
     color: var(--white);
