@@ -81,6 +81,10 @@
     cursor: pointer;
 }
 
+.border-radius {
+    border-radius: 1rem;
+}
+
 .btn-close:focus-visible {
     outline: none;
 }
@@ -91,6 +95,12 @@
 
 .fs-btn {
     font-size: 0.8rem;
+}
+
+@media (max-width: 767px) {
+    .border-radius {
+        border-radius: 0rem;
+    }
 }
 
 @media (max-width: 769px) {
