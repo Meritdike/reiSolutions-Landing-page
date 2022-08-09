@@ -14,6 +14,8 @@
     --secondaryGray: #808080;
     --darkGreen: #128C93;
     --secondary-orange: #F79468;
+    --greenTint2: #7FC0C4;
+    --greenTint4: #D8F1F3;
 }
 
 .btn-outline-green {
@@ -27,8 +29,11 @@
 }
 
 .btn-outline-green:hover {
-    background-color: var(--primaryGreen);
-    color: var(--white);
+    background-color: var(--greenTint4);
+}
+
+.btn-outline-green:active {
+    background-color: var(--greenTint2);
 }
 
 .text-orange {
@@ -52,7 +57,7 @@
 }
 
 .w-60 {
-    width: 60%;
+    width: 53%;
 }
 
 .btn-orange {
@@ -78,6 +83,14 @@
 
 .btn-close:focus-visible {
     outline: none;
+}
+
+.logo-mobile {
+    width: 5em;
+}
+
+.fs-btn {
+    font-size: 0.8rem;
 }
 
 @media (max-width: 769px) {
