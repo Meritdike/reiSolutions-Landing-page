@@ -18,6 +18,10 @@
     --greenTint4: #D8F1F3;
 }
 
+h1 {
+    font-size: 48px !important;
+}
+
 .btn-outline-green {
     background-color: transparent;
     border: 1px solid var(--primaryGreen);
