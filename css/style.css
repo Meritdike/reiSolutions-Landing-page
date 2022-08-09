@@ -97,6 +97,7 @@
     font-size: 0.8rem;
 }
 
+/* Hand style */
 .w-36 {
     width: 36%;
 }
@@ -104,6 +105,7 @@
 .w-hand {
     top: -27em;
 }
+/* End of hand styling */
 
 @media (max-width: 767px) {
     .border-radius {
