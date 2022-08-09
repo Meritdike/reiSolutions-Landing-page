@@ -97,6 +97,14 @@
     font-size: 0.8rem;
 }
 
+.w-36 {
+    width: 36%;
+}
+
+.w-hand {
+    top: -27em;
+}
+
 @media (max-width: 767px) {
     .border-radius {
         border-radius: 0rem;
