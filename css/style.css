@@ -97,19 +97,11 @@ h1 {
     outline: none;
 }
 
-.logo-mobile {
-    width: 5em;
-}
-
 .fs-btn {
     font-size: 0.8rem;
 }
 
 /* Hand style */
-.w-36 {
-    width: 36%;
-}
-
 .w-hand {
     top: 5em;
     right: 0em;
